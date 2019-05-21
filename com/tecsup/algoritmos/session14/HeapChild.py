@@ -56,7 +56,11 @@ class Heap:
         return self.heapList[ID_FIRST_ELEMENT]
 
     def maximumChildIndex(self, idx):
-
+        '''
+        Get maximum value child
+        :param idx:
+        :return:
+        '''
         valueLeftChild = self.leftChild(idx)
         valueRightChild = self.rightChild(idx)
 
@@ -69,7 +73,11 @@ class Heap:
             return self.leftChildIndex(idx)
 
     def minimumChildIndex(self, idx):
-
+        '''
+        Get minimum value child
+        :param idx:
+        :return:
+        '''
         valueLeftChild = self.leftChild(idx)
         valueRightChild = self.rightChild(idx)
 
@@ -117,7 +125,12 @@ def searchMinimunChildIndex():
               'with index = %.f is %.f'
               % (idxParent, idxChild))
 
-
+#
+#
+#       10
+#     3    9
+#    1 2  7 8
+#
 def searchMaximumChildIndex():
     '''
     Search minimum child of parent
