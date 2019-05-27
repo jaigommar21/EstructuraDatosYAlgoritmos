@@ -1,0 +1,738 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="e7295202-83e3-4379-9730-95db38e6ecc9" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/com/tecsup/algoritmos/session14/HeapDelete.py" beforeDir="false" afterPath="$PROJECT_DIR$/com/tecsup/algoritmos/session14/HeapDelete.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/com/tecsup/algoritmos/session14/HeapInsert.py" beforeDir="false" afterPath="$PROJECT_DIR$/com/tecsup/algoritmos/session14/HeapInsert.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/com/tecsup/algoritmos/session14/HeapSorted.py" beforeDir="false" afterPath="$PROJECT_DIR$/com/tecsup/algoritmos/session14/HeapSorted.py" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/com/tecsup/algoritmos/session12/BSTBuild.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="2675">
+              <caret line="107" selection-start-line="106" selection-end-line="107" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/com/tecsup/algoritmos/session14/HeapInsert.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="67">
+              <caret line="173" lean-forward="true" selection-start-line="173" selection-end-line="173" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/com/tecsup/algoritmos/session14/HeapBuild.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="2550">
+              <caret line="102" column="28" selection-start-line="102" selection-start-column="28" selection-end-line="102" selection-end-column="28" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/com/tecsup/algoritmos/session14/HeapSorted.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-566">
+              <caret line="193" lean-forward="true" selection-start-line="193" selection-end-line="193" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/com/tecsup/algoritmos/session14/HeapChild.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="850">
+              <caret line="34" column="11" lean-forward="true" selection-start-line="34" selection-start-column="11" selection-end-line="34" selection-end-column="11" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/com/tecsup/algoritmos/session14/HeapDelete.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="137">
+              <caret line="251" column="3" lean-forward="true" selection-start-line="251" selection-start-column="3" selection-end-line="251" selection-end-column="3" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/com/tecsup/algoritmos/session13/Heap.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1453">
+              <caret line="204" column="30" lean-forward="true" selection-start-line="204" selection-start-column="30" selection-end-line="204" selection-end-column="30" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/com/tecsup/algoritmos/session09/PrefixExpresionParser.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="775">
+              <caret line="32" column="10" selection-start-line="32" selection-start-column="10" selection-end-line="32" selection-end-column="10" />
+              <folding>
+                <element signature="e#0#23#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/com/tecsup/algoritmos/session09/ASTTreeTraversal.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1200">
+              <caret line="48" selection-start-line="48" selection-end-line="48" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>parserToTree</find>
+      <find>.data</find>
+      <find>.getData()</find>
+      <find>.getRight()</find>
+      <find>printHeap</find>
+      <find>minimumChild</find>
+      <find>searchElement</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>.data</replace>
+      <replace>.right</replace>
+    </replaceStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/com/tecsup/algoritmos/session04/StackDynamicArray.py" />
+        <option value="$PROJECT_DIR$/com/tecsup/algoritmos/session04/StackLinkedList.py" />
+        <option value="$PROJECT_DIR$/com/tecsup/algoritmos/session04/StackSimpleArray.py" />
+        <option value="$PROJECT_DIR$/com/tecsup/algoritmos/session00/Basic.py" />
+        <option value="$PROJECT_DIR$/com/tecsup/algoritmos/session05/Queue.py" />
+        <option value="$PROJECT_DIR$/com/tecsup/algoritmos/session05/QueueDynamicCircularArray.py" />
+        <option value="$PROJECT_DIR$/com/tecsup/algoritmos/session05/QueueLinkedListsCircular.py" />
+        <option value="$PROJECT_DIR$/com/tecsup/algoritmos/session05/QueueLinkedLists.py" />
+        <option value="$PROJECT_DIR$/com/tecsup/algoritmos/session05/QueueSimpleCircularArray.py" />
+        <option value="$PROJECT_DIR$/com/tecsup/algoritmos/session07/BinaryTreeNode.py" />
+        <option value="$PROJECT_DIR$/com/tecsup/algoritmos/session07/PostOrderTraversal.py" />
+        <option value="$PROJECT_DIR$/com/tecsup/algoritmos/session07/PreOrderTraversal.py" />
+        <option value="$PROJECT_DIR$/com/tecsup/algoritmos/session07/FindMaxItemInBT.py" />
+        <option value="$PROJECT_DIR$/com/tecsup/algoritmos/session08/ExercisesBinaryTree.py" />
+        <option value="$PROJECT_DIR$/com/tecsup/algoritmos/session07/InOrderTraversal.py" />
+        <option value="$PROJECT_DIR$/com/tecsup/algoritmos/session08/util/Node.py" />
+        <option value="$PROJECT_DIR$/com/tecsup/algoritmos/session08/util/Queue.py" />
+        <option value="$PROJECT_DIR$/com/tecsup/algoritmos/session08/utils/Node.py" />
+        <option value="$PROJECT_DIR$/com/tecsup/algoritmos/session08/utils/Queue.py" />
+        <option value="$PROJECT_DIR$/com/tecsup/algoritmos/session08/util/QueueLinkedLists.py" />
+        <option value="$PROJECT_DIR$/com/tecsup/algoritmos/session08/util/BinaryTreeNode.py" />
+        <option value="$PROJECT_DIR$/com/tecsup/algoritmos/session08/FindMaxItemInBT.py" />
+        <option value="$PROJECT_DIR$/com/tecsup/algoritmos/session08/FindItemBT.py" />
+        <option value="$PROJECT_DIR$/com/tecsup/algoritmos/session08/FindSizeBT.py" />
+        <option value="$PROJECT_DIR$/com/tecsup/algoritmos/session08/GetSizeBT.py" />
+        <option value="$PROJECT_DIR$/com/tecsup/algoritmos/session08/LevelOrderTraversal.py" />
+        <option value="$PROJECT_DIR$/com/tecsup/algoritmos/session08/SumaNodeBT.py" />
+        <option value="$PROJECT_DIR$/com/tecsup/algoritmos/session09/ASTTreeTraversal.py" />
+        <option value="$PROJECT_DIR$/com/tecsup/algoritmos/session09/PrefixExpresionParser.py" />
+        <option value="$PROJECT_DIR$/com/tecsup/algoritmos/session09/PostExpresionParser.py" />
+        <option value="$PROJECT_DIR$/com/tecsup/algoritmos/session09/GenericTree.py" />
+        <option value="$PROJECT_DIR$/com/tecsup/algoritmos/session10/BST.py" />
+        <option value="$PROJECT_DIR$/ciclo1/Sesion06.py" />
+        <option value="$PROJECT_DIR$/com/tecsup/algoritmos/session09/ExpressionTrees.py" />
+        <option value="$PROJECT_DIR$/com/tecsup/algoritmos/session11/BSTBuild.py" />
+        <option value="$PROJECT_DIR$/com/tecsup/algoritmos/session11/BST.py" />
+        <option value="$PROJECT_DIR$/com/tecsup/algoritmos/session13/HeapSort.py" />
+        <option value="$PROJECT_DIR$/com/tecsup/algoritmos/session13/Example.py" />
+        <option value="$PROJECT_DIR$/com/tecsup/algoritmos/session11-12/BSTBuild.py" />
+        <option value="$PROJECT_DIR$/com/tecsup/algoritmos/session12/BSTBuild.py" />
+        <option value="$PROJECT_DIR$/com/tecsup/algoritmos/session14/HeapSorted2.py" />
+        <option value="$PROJECT_DIR$/com/tecsup/algoritmos/session14/HeapChild.py" />
+        <option value="$PROJECT_DIR$/com/tecsup/algoritmos/session14/HeapBuild.py" />
+        <option value="$PROJECT_DIR$/com/tecsup/algoritmos/session13/Heap.py" />
+        <option value="$PROJECT_DIR$/com/tecsup/algoritmos/session14/HeapInsert.py" />
+        <option value="$PROJECT_DIR$/com/tecsup/algoritmos/session14/HeapDelete.py" />
+        <option value="$PROJECT_DIR$/com/tecsup/algoritmos/session14/HeapSorted.py" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="88" />
+    <option name="y" value="97" />
+    <option name="width" value="1048" />
+    <option name="height" value="780" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="EstructuraDatosYAlgortimos2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="EstructuraDatosYAlgortimos2" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="EstructuraDatosYAlgortimos2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="EstructuraDatosYAlgortimos2" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="EstructuraDatosYAlgortimos2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="EstructuraDatosYAlgortimos2" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="tecsup" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="EstructuraDatosYAlgortimos2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="EstructuraDatosYAlgortimos2" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="tecsup" type="462c0819:PsiDirectoryNode" />
+              <item name="algoritmos" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="EstructuraDatosYAlgortimos2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="EstructuraDatosYAlgortimos2" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="tecsup" type="462c0819:PsiDirectoryNode" />
+              <item name="algoritmos" type="462c0819:PsiDirectoryNode" />
+              <item name="session13" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="EstructuraDatosYAlgortimos2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="EstructuraDatosYAlgortimos2" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="tecsup" type="462c0819:PsiDirectoryNode" />
+              <item name="algoritmos" type="462c0819:PsiDirectoryNode" />
+              <item name="session14" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\tecsup\curso\pfr\2019-1\EstructuraDatosYAlgortimos2\com\tecsup\algoritmos\session14" />
+      <recent name="D:\tecsup\curso\pfr\2019-1\EstructuraDatosYAlgortimos2\com\tecsup\algoritmos\session11" />
+      <recent name="D:\tecsup\curso\pfr\2019-1\EstructuraDatosYAlgortimos2\com\tecsup\algoritmos\session09" />
+      <recent name="D:\tecsup\curso\pfr\2019-1\EstructuraDatosYAlgortimos2\com\tecsup\algoritmos\session08" />
+      <recent name="D:\tecsup\curso\pfr\2019-1\EstructuraDatosYAlgortimos2\com\tecsup\algoritmos\session08\util" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\tecsup\curso\pfr\2019-1\EstructuraDatosYAlgortimos2\com\tecsup\algoritmos\session14" />
+      <recent name="D:\tecsup\curso\pfr\2019-1\EstructuraDatosYAlgortimos2\com\tecsup\algoritmos\session13" />
+      <recent name="D:\tecsup\curso\pfr\2019-1\EstructuraDatosYAlgortimos2\com\tecsup\algoritmos\session06" />
+      <recent name="D:\tecsup\curso\pfr\2019-1\EstructuraDatosYAlgortimos2\com\tecsup\algoritmos\session-12" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Python.HeapSorted">
+    <configuration name="Heap" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="EstructuraDatosYAlgortimos2" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/com/tecsup/algoritmos/session13" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/com/tecsup/algoritmos/session13/Heap.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="HeapBuild" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="EstructuraDatosYAlgortimos2" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/com/tecsup/algoritmos/session14" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/com/tecsup/algoritmos/session14/HeapBuild.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="HeapDelete" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="EstructuraDatosYAlgortimos2" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/com/tecsup/algoritmos/session14" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/com/tecsup/algoritmos/session14/HeapDelete.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="HeapInsert" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="EstructuraDatosYAlgortimos2" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/com/tecsup/algoritmos/session14" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/com/tecsup/algoritmos/session14/HeapInsert.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="HeapSorted" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="EstructuraDatosYAlgortimos2" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/com/tecsup/algoritmos/session14" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/com/tecsup/algoritmos/session14/HeapSorted.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.HeapSorted" />
+        <item itemvalue="Python.HeapDelete" />
+        <item itemvalue="Python.HeapInsert" />
+        <item itemvalue="Python.Heap" />
+        <item itemvalue="Python.HeapBuild" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="e7295202-83e3-4379-9730-95db38e6ecc9" name="Default Changelist" comment="" />
+      <created>1553482064645</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1553482064645</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1215" height="736" extended-state="6" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22943723" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.48756218" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.41321045" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.14900154" />
+      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
+      <window_info anchor="bottom" id="Python Console" order="10" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="R Graphics" order="3" />
+      <window_info anchor="right" id="R Packages" order="4" weight="0.3292978" />
+    </layout>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints-dialog>
+        <breakpoints-dialog>
+          <selected-grouping-rules>
+            <grouping-rule id="by-file" />
+          </selected-grouping-rules>
+        </breakpoints-dialog>
+      </breakpoints-dialog>
+    </breakpoint-manager>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/com/tecsup/algoritmos/session02/CheckArraySortedOrder.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/com/tecsup/algoritmos/session03/InsertAtBeginning.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/com/tecsup/algoritmos/session07/PostOrderTraversal.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1225">
+          <caret line="49" selection-start-line="49" selection-end-line="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/com/tecsup/algoritmos/session07/InOrderTraversal.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="800">
+          <caret line="32" column="17" selection-start-line="32" selection-start-column="17" selection-end-line="32" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/com/tecsup/algoritmos/session06/QueueDynamicCircularArray.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="500">
+          <caret line="20" column="7" selection-start-line="20" selection-start-column="7" selection-end-line="20" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/com/tecsup/algoritmos/session08/__init__.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/com/tecsup/algoritmos/session08/util/Node.py" />
+    <entry file="file://$PROJECT_DIR$/com/tecsup/algoritmos/session07/BinaryTreeNode.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="275">
+          <caret line="11" column="29" lean-forward="true" selection-start-line="11" selection-start-column="29" selection-end-line="11" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/com/tecsup/algoritmos/session08/utils/Node.py" />
+    <entry file="file://$PROJECT_DIR$/com/tecsup/algoritmos/session07/PreOrderTraversal.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="339">
+          <caret line="43" selection-start-line="43" selection-end-line="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/com/tecsup/algoritmos/session05/QueueSimpleCircularArray.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1125">
+          <caret line="15" selection-start-line="15" selection-end-line="16" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/com/tecsup/algoritmos/session04/StackDynamicArray.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1084">
+          <caret line="5" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/com/tecsup/algoritmos/session04/StackLinkedList.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-59">
+          <caret line="54" selection-start-line="54" selection-end-line="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/com/tecsup/algoritmos/session04/StackSimpleArray.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-575">
+          <caret line="7" column="21" selection-start-line="7" selection-start-column="21" selection-end-line="7" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/com/tecsup/algoritmos/session03/insertAtPos.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="66">
+          <caret line="15" column="15" selection-start-line="15" selection-start-column="15" selection-end-line="15" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/com/tecsup/algoritmos/session03/Traversing.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/com/tecsup/algoritmos/session03/DeleteSLL.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/com/tecsup/algoritmos/session08/utils/BinaryTreeNode.py" />
+    <entry file="file://$PROJECT_DIR$/com/tecsup/algoritmos/session03/Node.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="217">
+          <caret line="31" column="32" lean-forward="true" selection-start-line="4" selection-end-line="31" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/com/tecsup/algoritmos/session03/InsertAtEnd.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-158" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/com/tecsup/algoritmos/session08/utils/Queue.py" />
+    <entry file="file://$PROJECT_DIR$/com/tecsup/algoritmos/session08/util/BinaryTreeNode.py" />
+    <entry file="file://$PROJECT_DIR$/com/tecsup/algoritmos/session07/FindMaxItemInBT.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="28" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/com/tecsup/algoritmos/session08/util/__init__.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/com/tecsup/algoritmos/session08/LevelOrderTraversal.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="4" selection-start-line="3" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/com/tecsup/algoritmos/session08/FindMaxItemInBT.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="350">
+          <caret line="47" lean-forward="true" selection-start-line="20" selection-end-line="47" />
+          <folding>
+            <element signature="e#0#58#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/com/tecsup/algoritmos/session08/GetSizeBT.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="39" lean-forward="true" selection-start-line="39" selection-end-line="51" selection-end-column="36" />
+          <folding>
+            <element signature="e#1#59#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/com/tecsup/algoritmos/session06/QueueLinkedLists.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="125">
+          <caret line="74" column="24" lean-forward="true" selection-start-line="6" selection-end-line="74" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/com/tecsup/algoritmos/session08/util/QueueLinkedLists.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2375">
+          <caret line="98" column="20" selection-start-line="98" selection-start-column="20" selection-end-line="98" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/com/tecsup/algoritmos/session09/ExpressionTrees_Origin.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2575">
+          <caret line="103" column="1" selection-start-line="103" selection-start-column="1" selection-end-line="103" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/com/tecsup/algoritmos/session09/queue.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="4" column="8" selection-start-line="4" selection-start-column="8" selection-end-line="4" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/com/tecsup/algoritmos/session08/BinaryTreeNode.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="15" column="1" selection-start-line="15" selection-start-column="1" selection-end-line="25" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/com/tecsup/algoritmos/session08/FindItemBT.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="50">
+          <caret line="2" selection-start-line="2" selection-end-line="2" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/com/tecsup/algoritmos/session08/SumaNodeBT.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1150">
+          <caret line="47" column="29" selection-start-line="47" selection-start-column="29" selection-end-line="47" selection-end-column="29" />
+          <folding>
+            <element signature="e#1#59#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/com/tecsup/algoritmos/session09/ExpressionTrees.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="433">
+          <caret line="93" column="1" selection-start-line="93" selection-start-column="1" selection-end-line="93" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_HOME_DIR$/helpers/pydev/_pydev_imps/_pydev_execfile.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/com/tecsup/algoritmos/session09/GenericTree.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1125">
+          <caret line="45" column="25" selection-start-line="45" selection-start-column="25" selection-end-line="45" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/com/tecsup/algoritmos/session09/PostExpresionParser.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="775">
+          <caret line="32" selection-start-line="32" selection-end-line="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/com/tecsup/algoritmos/session13/Example.py" />
+    <entry file="file://$PROJECT_DIR$/ciclo1/Sesion06.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="130">
+          <caret line="16" column="12" selection-start-line="16" selection-start-column="12" selection-end-line="16" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/com/tecsup/algoritmos/session11/BST.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4925">
+          <caret line="197" column="26" selection-start-line="197" selection-start-column="26" selection-end-line="197" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/com/tecsup/algoritmos/session14/HeapSort.py" />
+    <entry file="file://$PROJECT_DIR$/com/tecsup/algoritmos/session12/BSTBuild.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2675">
+          <caret line="107" selection-start-line="106" selection-end-line="107" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/com/tecsup/algoritmos/session14/HeapBuild.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2550">
+          <caret line="102" column="28" selection-start-line="102" selection-start-column="28" selection-end-line="102" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/com/tecsup/algoritmos/session14/HeapChild.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="850">
+          <caret line="34" column="11" lean-forward="true" selection-start-line="34" selection-start-column="11" selection-end-line="34" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/com/tecsup/algoritmos/session09/PrefixExpresionParser.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="775">
+          <caret line="32" column="10" selection-start-line="32" selection-start-column="10" selection-end-line="32" selection-end-column="10" />
+          <folding>
+            <element signature="e#0#23#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/com/tecsup/algoritmos/session09/ASTTreeTraversal.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1200">
+          <caret line="48" selection-start-line="48" selection-end-line="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/com/tecsup/algoritmos/session13/Heap.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1453">
+          <caret line="204" column="30" lean-forward="true" selection-start-line="204" selection-start-column="30" selection-end-line="204" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/com/tecsup/algoritmos/session14/HeapInsert.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="67">
+          <caret line="173" lean-forward="true" selection-start-line="173" selection-end-line="173" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/com/tecsup/algoritmos/session14/HeapDelete.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="137">
+          <caret line="251" column="3" lean-forward="true" selection-start-line="251" selection-start-column="3" selection-end-line="251" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/com/tecsup/algoritmos/session14/HeapSorted.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-566">
+          <caret line="193" lean-forward="true" selection-start-line="193" selection-end-line="193" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
