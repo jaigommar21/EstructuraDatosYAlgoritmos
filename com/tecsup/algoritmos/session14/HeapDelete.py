@@ -8,7 +8,7 @@ class Heap:
     Heap class
     '''
     def __init__(self):
-        self.heapList = [0]
+        self.heapList = []
         self.size = 0
 
     def parentIndex(self, index):
@@ -21,12 +21,12 @@ class Heap:
         return 2*index + 2
 
     def leftChild(self, index):
-        if 2 * index + 1 <= self.size:
+        if 2 * index + 1 < self.size:
             return self.heapList[self.leftChildIndex(index)]
         return -1
 
     def rightChild(self, index):
-        if 2 * index + 2 <= self.size:
+        if 2 * index + 2 < self.size:
             return self.heapList[self.rightChildIndex(index)]
         return -1
 
@@ -55,104 +55,176 @@ class Heap:
             return -1
         return self.heapList[ID_FIRST_ELEMENT]
 
+    def maximumChildIndex(self, idx):
+
+        valueLeftChild = self.leftChild(idx)
+        valueRightChild = self.rightChild(idx)
+
+        if valueLeftChild > valueRightChild :
+            return self.leftChildIndex(idx)
+        elif  valueLeftChild < valueRightChild :
+            return self.rightChildIndex(idx)
+        else :
+            # return any child index
+            return self.leftChildIndex(idx)
+
+
+    def minimumChildIndex(self, idx):
+        valueLeftChild = self.leftChild(idx)
+        valueRightChild = self.rightChild(idx)
+        #print("valueLeftChild = %d" % valueLeftChild)
+        #print("valueRightChild = %d" % valueRightChild)
+
+        if valueRightChild == -1 :
+            return self.leftChildIndex(idx)
+
+        if valueLeftChild > valueRightChild :
+            return self.rightChildIndex(idx)
+        elif  valueLeftChild < valueRightChild :
+            return self.leftChildIndex(idx)
+        else :
+            # return any child index
+            return self.rightChildIndex(idx)
+
     def percolateDown(self, i):
-        while (i * 2) <= self.size:
-            minimumChild = self.minimumChild(i)
-            if self.heapList[i] > self.heapList[minimumChild]:
+        while self.leftChildIndex(i) < self.size:
+          #  print(self.heapList)
+            minimumChildIndex = self.minimumChildIndex(i)
+         #   print("i = %d" % i)
+         #   print("minimumChildIndex = %d" % minimumChildIndex)
+            if self.heapList[i] > self.heapList[minimumChildIndex]:
                 tmp = self.heapList[i]
-                self.heapList[i] = self.heapList[minimumChild]
-                self.heapList[minimumChild] = tmp
-            i = minimumChild
+                self.heapList[i] = self.heapList[minimumChildIndex]
+                self.heapList[minimumChildIndex] = tmp
+            i = minimumChildIndex
 
-    def minimumChild(self, i):
-        if i * 2 + 1 > self.size:
-            return i * 2
-        else:
-            if self.heapList[i * 2] < self.heapList[i * 2 + 1]:
-                return i * 2
-            else:
-                return i * 2 + 1
+    def percolateDownItem(self, i):
+            minimumChildIndex = self.minimumChildIndex(i)
+            if self.heapList[i] > self.heapList[minimumChildIndex]:
+                tmp = self.heapList[i]
+                self.heapList[i] = self.heapList[minimumChildIndex]
+                self.heapList[minimumChildIndex] = tmp
 
-    def percolateUp(self, i):
-        while(i // 2 > 0):
-            if self.heapList[i] < self.heapList[i // 2]:
-                tmp = self.heapList[i // 2]
-                self.heapList[i // 2] = self.heapList[i]
+    def percolateUp(self):
+        i = self.size - 1
+        iParent = self.parentIndex(i)
+        while(iParent >= 0):
+            if self.heapList[i] < self.heapList[iParent]:
+                tmp = self.heapList[iParent]
+                self.heapList[iParent] = self.heapList[i]
                 self.heapList[i] = tmp
-            i = i // 2
+            i = iParent
+            iParent = self.parentIndex(i)
+            #print(self.heapList)
 
-    def deleteMin(self):
-       retval = self.heapList[1]
-       self.heapList[1] = self.heapList[self.size]
-       self.size = self.size - 1
-       self.heapList.pop()
-       self.percolateDown(1)
-       return retval
+    def percolateUpItem(self, i):
+        iParent = self.parentIndex(i)
+        if self.heapList[i] < self.heapList[iParent]:
+            tmp = self.heapList[iParent]
+            self.heapList[iParent] = self.heapList[i]
+            self.heapList[i] = tmp
 
-    def insert(self, k):
+    def insertUp(self, k):
         self.heapList.append(k)
         self.size = self.size + 1
-        self.percolateUp(self.size)
+        self.percolateUp()
 
-    def printHeap(self):
-        print(self.heapList[1:])
-
-def FindKthLargestEle(HOrig, k):
-    count = 1
-    HAux = Heap()
-    itm = HOrig.getMinimum()
-    HAux.insert(itm)
-    if count == k:
-        return itm
-    while (HAux.size >= 1):
-        itm = HAux.deleteMin()
-        count += 1
-        if count == k:
-            return itm
-        else:
-            if HOrig.rightChild(HOrig.searchElement(itm)) != -1:
-                HAux.insert(HOrig.rightChild(HOrig.searchElement(itm)))
-            if HOrig.leftChild(HOrig.searchElement(itm)) != -1:
-                HAux.insert(HOrig.leftChild(HOrig.searchElement(itm)))
-
+    def deleteTop(self):
+        self.heapList[0] = self.heapList[self.size-1]
+        self.size = self.size-1
+        self.heapList.pop()
+        self.percolateDown(0)
 #
-#
-#
-#
-def test():
-    HOrig = Heap()
-    # add some nonsense:
-    HOrig.insert(1)
-    HOrig.insert(20)
-    HOrig.insert(5)
-    HOrig.insert(100)
-    HOrig.insert(1000)
-    HOrig.insert(12)
-    HOrig.insert(18)
-    HOrig.insert(16)
-
-    print(HOrig.heapList)
-    print(FindKthLargestEle(HOrig, 6))
-    print(FindKthLargestEle(HOrig, 3))
-
-
 #
 #       10
 #     3    9
 #    1 2  7 8
 #
-def searchMinimunChildIndex():
+def examplePercolateDownItem():
     '''
-    Search index of parent
+    Percolate download
     '''
     heap = Heap()
-    heap.heapList = [10, 3, 9, 1, 2, 7, 8]
-    #                 0 1 2 3 4 5 6
+#    heap.heapList = [10,3,9,1,2,7,8]
+#    #                 0 1 2 3 4 5 6
+
+    heap.heapList = [10,3,9,1,2,7,8]
+    heap.size = len(heap.heapList)
+    #
+    print("--------------------------")
+    print(heap.heapList)
+    heap.percolateDownItem(0)
+    print(heap.heapList)
+    print("--------------------------")
+    print(heap.heapList)
+    heap.percolateDownItem(1)
+    print(heap.heapList)
+    print("--------------------------")
+    print(heap.heapList)
+    heap.percolateDownItem(2)
     print(heap.heapList)
 
 
+#
+#
+#       10
+#     3    9
+#    1 2  7 8
+#
+def examplePercolateDown():
+    '''
+    Percolate download
+    '''
+    heap = Heap()
+#    heap.heapList = [10,3,9,1,2,7,8]
+#    #                 0 1 2 3 4 5 6
 
+    heap.heapList = [10,3,9,1,2,7,8]
+    heap.size = len(heap.heapList)
+    #
+    print("--------------------------")
+    print(heap.heapList)
+    heap.percolateDown(0)
+    print(heap.heapList)
+    print("--------------------------")
+    print(heap.heapList)
+    heap.percolateDown(1)
+    print(heap.heapList)
+    print("--------------------------")
+    print(heap.heapList)
+    heap.percolateDown(2)
+    print(heap.heapList)
+
+#
+#
+#       1
+#     2    7
+#   10 3  9  8
+#
+def deleteHeapMin():
+    '''
+
+    :return:
+    '''
+
+    heap = Heap()
+    heap.heapList = [1, 2, 7, 10, 3, 9, 8]
+    heap.size = len(heap.heapList)
+
+ #   print(heap.heapList)
+ #   heap.deleteTop()
+ #   print(heap.heapList)
+
+    print("======================")
+    for i in range(len(heap.heapList)):
+        print(heap.heapList)
+        heap.deleteTop()
+        print("---------------------")
+
+    print(heap.heapList)
 
 if __name__ == '__main__':
-    #test()
-    searchMinimunChildIndex()
+
+     # examplePercolateDownItem()
+     # examplePercolateDown()
+    deleteHeapMin()
