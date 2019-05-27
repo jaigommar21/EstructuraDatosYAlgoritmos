@@ -163,7 +163,7 @@ def sortDownArray():
 #
 def sortMinHeapFromArray():
     '''
-
+    Sort min-heap from array
     :return:
     '''
 

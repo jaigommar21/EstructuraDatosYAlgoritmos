@@ -125,6 +125,7 @@ def searchMinimunChildIndex():
               'with index = %.f is %.f'
               % (idxParent, idxChild))
 
+
 #
 #
 #       10

@@ -159,6 +159,7 @@ def exampleHeapBuild():
     heap.buildHeap(list)
     print(heap.heapList)
 
+
 if __name__ == '__main__':
 
     exampleHeapBuild()

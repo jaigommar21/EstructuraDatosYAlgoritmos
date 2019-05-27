@@ -143,7 +143,7 @@ class Heap:
             self.percolateDown(i)
             i = i - 1
 
-    def moveTop2Bottom(self):
+    def changeTopWithBottom(self):
         tmp = self.heapList[0]
         self.heapList[0] = self.heapList[self.size-1]
         self.heapList[self.size - 1] = tmp
@@ -170,7 +170,7 @@ def exampleHeapSortFromArrayUnsorted():
     print("======- Start Sorted ========")
     for i in range(len(heap.heapList)):
         print("--- Extract %d number -----"%(i+1))
-        heap.moveTop2Bottom()
+        heap.changeTopWithBottom()
         print(heap.heapList)
 
     print("======- Array Sorted ========")

@@ -203,7 +203,7 @@ def examplePercolateDown():
 #
 def deleteHeapMin():
     '''
-
+    Delete heap
     :return:
     '''
 
@@ -222,6 +222,7 @@ def deleteHeapMin():
         print("---------------------")
 
     print(heap.heapList)
+
 
 if __name__ == '__main__':
 
