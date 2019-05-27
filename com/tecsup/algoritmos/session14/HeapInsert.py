@@ -15,19 +15,31 @@ class Heap:
         return (index-1) //2
 
     def leftChildIndex(self, index):
-        return 2*index + 1
-
-    def rightChildIndex(self, index):
-        return 2*index + 2
+        return 2 * index + 1
 
     def leftChild(self, index):
-        if 2 * index + 1 <= self.size:
-            return self.heapList[self.leftChildIndex(index)]
+        '''
+        Get value of left child
+        :param index:
+        :return:
+        '''
+        leftIndex = self.leftChildIndex(index)
+        if leftIndex < self.size:
+            return self.heapList[leftIndex]
         return -1
 
+    def rightChildIndex(self, index):
+        return 2 * index + 2
+
     def rightChild(self, index):
-        if 2 * index + 2 <= self.size:
-            return self.heapList[self.rightChildIndex(index)]
+        '''
+        Get value of right child
+        :param index:
+        :return:
+        '''
+        rightIndex = self.rightChildIndex(index)
+        if rightIndex < self.size:
+            return self.heapList[rightIndex]
         return -1
 
     def searchElement(self, itm):
@@ -68,7 +80,6 @@ class Heap:
             # return any child index
             return self.leftChildIndex(idx)
 
-
     def minimumChildIndex(self, idx):
 
         valueLeftChild = self.leftChild(idx)
@@ -82,31 +93,19 @@ class Heap:
             # return any child index
             return self.rightChildIndex(idx)
 
-    def percolateDown(self, i):
-        while (i * 2) <= self.size:
-            minimumChildIndex = self.minimumChildIndex(i)
-            if self.heapList[i] > self.heapList[minimumChildIndex]:
-                tmp = self.heapList[i]
-                self.heapList[i] = self.heapList[minimumChildIndex]
-                self.heapList[minimumChildIndex] = tmp
-            i = minimumChildIndex
-
-    def percolateDownItem(self, i):
-        while (i * 2) <= self.size:
-            minimumChildIndex = self.minimumChildIndex(i)
-            if self.heapList[i] > self.heapList[minimumChildIndex]:
-                tmp = self.heapList[i]
-                self.heapList[i] = self.heapList[minimumChildIndex]
-                self.heapList[minimumChildIndex] = tmp
-            i = minimumChildIndex
-
     def percolateUp(self):
+        '''
+        Apply percolate up to heap
+        :return:
+        '''
         i = self.size - 1
         iParent = self.parentIndex(i)
         while(iParent >= 0):
-            if self.heapList[i] < self.heapList[iParent]:
+            if self.heapList[i] \
+                    < self.heapList[iParent]:
                 tmp = self.heapList[iParent]
-                self.heapList[iParent] = self.heapList[i]
+                self.heapList[iParent] \
+                    = self.heapList[i]
                 self.heapList[i] = tmp
             i = iParent
             iParent = self.parentIndex(i)
@@ -120,6 +119,12 @@ class Heap:
             self.heapList[i] = tmp
 
     def insertUp(self, k):
+        '''
+        Insert an element at the end
+        of heap and apply percolate up
+        :param k:
+        :return:
+        '''
         self.heapList.append(k)
         self.size = self.size + 1
         self.percolateUp()

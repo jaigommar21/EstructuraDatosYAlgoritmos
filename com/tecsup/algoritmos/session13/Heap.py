@@ -11,19 +11,31 @@ class Heap:
         return (index-1) //2
 
     def leftChildIndex(self, index):
-        return 2*index + 1
-
-    def rightChildIndex(self, index):
-        return 2*index + 2
+        return 2 * index + 1
 
     def leftChild(self, index):
-        if 2 * index + 1 <= self.size:
-            return self.heapList[self.leftChildIndex(index)]
+        '''
+        Get value of left child
+        :param index:
+        :return:
+        '''
+        leftIndex = self.leftChildIndex(index)
+        if leftIndex < self.size:
+            return self.heapList[leftIndex]
         return -1
 
+    def rightChildIndex(self, index):
+        return 2 * index + 2
+
     def rightChild(self, index):
-        if 2 * index + 2 <= self.size:
-            return self.heapList[self.rightChildIndex(index)]
+        '''
+        Get value of right child
+        :param index:
+        :return:
+        '''
+        rightIndex = self.rightChildIndex(index)
+        if rightIndex < self.size:
+            return self.heapList[rightIndex]
         return -1
 
     def searchElement(self, itm):
