@@ -197,7 +197,7 @@ def exampleHeapSortFromArrayUnsorted():
     Apply heap sort from an array unsorted
     :return:
     '''
-    list = [10,3,9,1,2,7,8]
+    list = [10,3,9,1,2,7,8,12,465,7767,2,45]
 
     print("====== Array Unsorted =======")
     print(list)

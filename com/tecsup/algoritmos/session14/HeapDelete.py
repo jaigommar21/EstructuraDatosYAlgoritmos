@@ -105,17 +105,13 @@ class Heap:
         '''
         while self.leftChildIndex(i) < self.size:
           #  print(self.heapList)
-            minimumChildIndex \
-                = self.minimumChildIndex(i)
+            minimumChildIndex = self.minimumChildIndex(i)
           #  print("i = %d" % i)
           #  print("minimumChildIndex = %d" % minimumChildIndex)
-            if self.heapList[i] \
-                    > self.heapList[minimumChildIndex]:
+            if self.heapList[i]  > self.heapList[minimumChildIndex]:
                 tmp = self.heapList[i]
-                self.heapList[i] \
-                    = self.heapList[minimumChildIndex]
-                self.heapList[minimumChildIndex] \
-                    = tmp
+                self.heapList[i] = self.heapList[minimumChildIndex]
+                self.heapList[minimumChildIndex] = tmp
             i = minimumChildIndex
 
     def percolateDownItem(self, i):
@@ -263,4 +259,4 @@ if __name__ == '__main__':
 
      # examplePercolateDownItem()
      # examplePercolateDown()
-    deleteHeapMin()
+     deleteHeapMin()

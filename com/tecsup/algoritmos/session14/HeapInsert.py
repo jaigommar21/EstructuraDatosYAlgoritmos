@@ -101,11 +101,9 @@ class Heap:
         i = self.size - 1
         iParent = self.parentIndex(i)
         while(iParent >= 0):
-            if self.heapList[i] \
-                    < self.heapList[iParent]:
+            if self.heapList[i] < self.heapList[iParent]:
                 tmp = self.heapList[iParent]
-                self.heapList[iParent] \
-                    = self.heapList[i]
+                self.heapList[iParent] = self.heapList[i]
                 self.heapList[i] = tmp
             i = iParent
             iParent = self.parentIndex(i)
@@ -144,7 +142,7 @@ def sortDownArray():
 #    #                 0 1 2 3 4 5 6
 
     heap.heapList = [10,3,9,1,2,7,8]
-    #                 0 1 2
+    #                 0 1 2 3 4 5 6
 
     # It is important
     heap.size = len(heap.heapList)
@@ -153,7 +151,7 @@ def sortDownArray():
     print(heap.heapList)
 
     #
-    heap.percolateUpItem(2)
+    heap.percolateUpItem(5)
     #heap.percolateUp()
     #
     print(heap.heapList)
@@ -172,7 +170,7 @@ def sortMinHeapFromArray():
     :return:
     '''
 
-    list = [10, 3, 9, 1, 2, 7, 8]
+    list = [10, 9, 3, 1, 2, 7, 8,0,200]
 
     heap = Heap()
 
