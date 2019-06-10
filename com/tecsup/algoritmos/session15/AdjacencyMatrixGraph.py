@@ -1,11 +1,11 @@
 
 
 class Vertex:
-    '''
+    '''getVertex
     Vertex class
     '''
     def __init__(self, node):
-        self.id = node
+        self.id:int = node
         # Mark all nodes unvisited
         self.visited = False
 
@@ -13,7 +13,8 @@ class Vertex:
         G.addEdge(self.id, neighbor)
 
     def getConnections(self, G):
-        return G.adjMatrix[self.id]
+        #print(type(self.id))
+        return G.adjMatrix[G.getVertexIndex(self.id)]
 
     def getVertexID(self):
         return self.id
@@ -38,28 +39,31 @@ class Graph:
         self.adjMatrix \
             = [[-1 for u in range(numVertices)]
                 for v in range(numVertices)]
-        #rint(self.adjMatrix)
+        #print(self.adjMatrix)
         self.numVertices = numVertices
         self.vertices = []
         for i in range(0, numVertices):
             newVertex = Vertex(i)
             self.vertices.append(newVertex)
 
-    def setVertex(self, vtx, id):
+    def setVertex(self, vtx :int , id ):
         if 0 <= vtx < self.numVertices:
             self.vertices[vtx].setVertexID(id)
 
-    def getVertex(self, n):
+    def getVertexIndex(self, n):
         for vertxin in range(0, self.numVertices):
             if n == self.vertices[vertxin].getVertexID():
                 return vertxin
         return (-1)
 
-    def addEdge(self, frm, to, cost=0):
-        if self.getVertex(frm) != -1 and self.getVertex(to) != -1:
-            self.adjMatrix[self.getVertex(frm)][self.getVertex(to)] = cost
+    def getVertex(self, index):
+        return self.vertices[index]
+
+    def addEdge(self, frm: object, to: object, cost: object = 0) -> object:
+        if self.getVertexIndex(frm) != -1 and self.getVertexIndex(to) != -1:
+            self.adjMatrix[self.getVertexIndex(frm)][self.getVertexIndex(to)] = cost
             # For directed graph do not add this
-            self.adjMatrix[self.getVertex(to)][self.getVertex(frm)] = cost
+            self.adjMatrix[self.getVertexIndex(to)][self.getVertexIndex(frm)] = cost
 
     def getVertices(self):
         vertices = []
@@ -80,8 +84,8 @@ class Graph:
             for u in range(0, self.numVertices):
                 if self.adjMatrix[u][v] != -1:
                     vid = self.vertices[v].getVertexID()
-                    wid = self.vertices[u].getVertexID()
-                    edges.append((vid, wid, self.adjMatrix[u][v]))
+                    uid = self.vertices[u].getVertexID()
+                    edges.append((vid, uid, self.adjMatrix[u][v]))
         return edges
 
 
@@ -103,3 +107,6 @@ if __name__ == '__main__':
     G.printMatrix()
     print(G.getEdges())
 
+    #G.getVertex(2).getConnections(G)
+    print(G.getVertex(2).getConnections(G))
+    #print(G.getVertexIndex('c'))
