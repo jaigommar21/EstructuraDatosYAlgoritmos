@@ -1,0 +1,61 @@
+{
+	"folders": [
+		{
+			"path": "session05"
+		},
+		{
+			"path": "session06"
+		},
+		{
+			"path": "session04"
+		},
+		{
+			"path": "session07"
+		},
+		{
+			"path": "session02"
+		},
+		{
+			"path": "session03"
+		},
+		{
+			"path": "session08"
+		},
+		{
+			"path": "session09"
+		},
+		{
+			"path": "session00"
+		},
+		{
+			"path": "session10"
+		},
+		{
+			"path": "session11"
+		},
+		{
+			"path": "session12"
+		},
+		{
+			"path": "session13"
+		},
+		{
+			"path": "session14"
+		},
+		{
+			"path": "session15"
+		},
+		{
+			"path": "session16"
+		},
+		{
+			"path": "session01"
+		},
+		{
+			"path": "session17"
+		}
+	],
+	"settings": {
+		"python.pythonPath": "/usr/local/bin/python3"
+	}
+}
